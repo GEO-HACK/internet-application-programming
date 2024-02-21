@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000; /* Pure black */
+    color: #ffffff; /* Pure white text */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 20px auto;
+    background-color: #000000; /* Pure black */
+    overflow: hidden;
+    border-radius: 20px;
+    border: 2px solid #ffffff; /* Pure white border */
+    padding: 20px 40px;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #000000; /* Pure black */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000; /* Pure black */
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #ffffff; /* Pure white border */
+    height: fit-content;
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #ffffff; /* Pure white */
+    color: #000000; /* Pure black text */
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #ffffff; /* Pure white border */
+    text-align: center;
+    color: #000000; /* Pure black text */
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ffffff; /* Pure white border */
+    background-color: #000000; /* Pure black */
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff; /* Pure white text */
+}
+
+button:hover {
+    background-color: #333333; /* Slightly darker black */
+}
+
+ul {
+    list-style: square;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: 2px solid #ffffff; /* Pure white border */
+    background-color: #000000; /* Pure black */
+    margin-top: 20px;
+}
+
+li {
+    font-size: 20px;
+    color: #ffffff; /* Pure white text */
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #000000; /* Pure black */
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Soft white shadow */
+}
